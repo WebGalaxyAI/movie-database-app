@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" x-data="{
-    isDark: getTheme('theme') === 'dark'
+    isDark: getTheme() === 'dark'
 }" :class="{ 'dark': isDark, 'light': !isDark }">
 <head>
     <meta charset="UTF-8">
